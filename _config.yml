@@ -1,0 +1,81 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Personal info
+name: Anmol Rathi
+#title: 
+email: anmolrathi0404@gmail.com
+#phone: 
+website: http://anmolrathi.me
+
+# Social links
+#twitter_username: jekyllrb
+#github_username:  jekyllrb
+#dribbble_username: jekyll
+#facebook_username: 
+#flickr_username: jekyll
+#instagram_username: anmol_4080
+linkedin_username: https://www.linkedin.com/in/anmol-rathi-27602317b/
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#googleplus_username: +jekyll
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+      Anmol Rathi has worked on various projects with the most distinguished - <mark>Early Detection of Pancreatic Cancer through Lateral Flow Assay and Deep Learning</mark>. He created a colorimetric strip-based test to detect Pancreatic Cancer using saliva. This strip is 125 times cheaper than MRI and CT scan and 35 times cheaper than CA19-9 Blood test. For his Innovation he has awarded <mark>Gold medal at Genius Olympiad 2019 </mark>, held at NewYork, USA. Also selected as regional finalist of Google Science Fair 2018. This project bagged 1st Prize of  Rs. 1 Lakh in CSIR Innovation awards for school children 2019 at Vigyan Bhavan under the Ministry of Science and Technology. Bagged a Gold Medal at INSEF, organized by Science Society of India, First position at vision-2030 Challenge conducted by Techfest 2018, IIT Bombay.This project was also winner of techexpo 2019 held in IIT Guwahati. Also qualified to be presented at the Ethics Committee Meetings of - Rajiv Gandhi Cancer Institute & Research Centre, Delhi & AIIMS, Delhi.
+
+      His other eminent project was <mark>SPITCLEAVENT-A Scientific Approach to Clean and Prevent Salivary Ejection</mark>, a spit cleaning and preventing device. This project bagged 4th Prize of INR  20000/- in CSIR Innovation awards 2018 at Vigyan Bhavan. Also  won Gold Medal in Science & Innovation Fair 2018, FGSI,Delhi. Got 4th Position at Techkriti 2018, IIT Kanpur. Also National Finalist of CBSE National Science Exhibition Feb-2018, Delhi.
+
+  
+ # You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
+  #  - Lists
+  #  - Tables
+ #   - Links
+ #   - Images
+
+# Projects Section
+# projects_title: Projects #(Use this to override about projects section title)
+
+# Experience Section
+# experience_title: Experience #(Use this to override about experience section title)
+
+# Education Section
+# education_title: Education #(Use this to override about education section title)
+
+# More Section
+# more_title: A Little More About Me #(Use this to override about more section title)
+more_content: | # this will include new lines to allow paragraphs
+  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+# Footer
+footer_show_references: true
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]

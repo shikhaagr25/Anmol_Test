@@ -1,0 +1,6 @@
+# Project template
+- layout: top-middle
+  name: Details of award(s) at International level
+  description: | # this will include new lines to allow paragraphs
+    -  Gold Medal in the category of Science at Genius Olympiad 2019, an annual interdisciplinary International High School Competition, held at the State University of New York (SUNY), OSWEGO, New York from 17th June 2019 to 21st June 2019 for the project - ‘Early Detection of Pancreatic Cancer through Lateral Flow Assay and Deep Learning’. A Certificate along with an Amazon Fire HD-10 Tablet was also awarded. 
+    -  Regional Finalist (Top 100 Exhibits from all around the world) of Google Science Fair 2018, World’s One of The Biggest Annual Science & Engineering Fair for High School Students for the project - ‘Early Detection of Pancreatic Cancer through Lateral Flow Assay and Deep Learning’. A Chromebook and other goodies were also awarded.
