@@ -1,5 +1,5 @@
 <div class="container projects-container">
-  <h3>{{ site.projects_title | default: "Details of award(s) at International level" }}</h3>
+  <h3>{{ site.projects_title | default: "Projects" }}</h3>
   {% for project in site.data.projects %}
     {% include {{ project.layout | default: 'left' | append: ".html" }} item=project %}
   {% endfor %}
